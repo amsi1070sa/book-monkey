@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+type ViewState = 'list' | 'details';
+
 @Component({
   selector: 'bm-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'book-monkey';
+
 }
